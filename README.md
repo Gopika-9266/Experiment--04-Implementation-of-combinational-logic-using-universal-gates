@@ -36,7 +36,8 @@ RegisterNumber:
 */
 ## RTL realization
 
-## Output:
+## Output:[ilovepdf_pages-to-jpg (7).zip](https://github.com/Gopika-9266/Experiment--04-Implementation-of-combinational-logic-using-universal-gates/files/10474864/ilovepdf_pages-to-jpg.7.zip)
+
 ## RTL
 ## Timing Diagram
 ## Result:
