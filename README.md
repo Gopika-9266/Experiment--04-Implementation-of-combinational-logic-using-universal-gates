@@ -38,7 +38,7 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 
 ## Program:
 
-
+```
 module combo1(a,b,c,d,f);
 input a,b,c,d;
 output f;
@@ -48,8 +48,9 @@ assign f2 = (~d&~c&~a);
 assign f3 = (c&~(~b)&~a);
 assign f= f1&~f2&~f3;
 endmodule
+```
 
-
+```
 module combo2(a,b,c,d,f);
 input a,b,c,d;
 output f;
@@ -60,12 +61,13 @@ assign f3 = c&(~b)&a;
 assign f4 = ~(f1|f2|f3);
 not(f,f4);
 endmodule
-
+```
 
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
+```
 Developed by: Gopika.R 
 RegisterNumber: 22009266 
-
+```
 
 ## Output:
 
